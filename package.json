@@ -1,0 +1,22 @@
+{
+  "name": "pdf-protect",
+  "version": "1.0.0",
+  "description": "pdf-protect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-protect"
+  ],
+  "author": "lepek13",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "html-pdf": "^3.0.1",
+    "hummus-recipe": "^2.0.1",
+    "nodemon": "^2.0.10"
+  }
+}

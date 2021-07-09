@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('./partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+  <%- include('./partials/headers'); %>
+</header>
+
+<main>
+  <div class="jumbotron">
+    <h1><%= tag %></h1>
+    <p>Welcome to templating using EJS</p>
+  </div>
+  <div class="containter">
+    <div class="row">
+      <ul>
+        <% data.forEach(function(awb){ %>
+          <li>
+            New <strong><%= awb.new_awb%></strong> 
+            Old <b><%= awb.awb_old%></b>
+          </li>
+        <% }); %>
+      </ul>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <%- include('./partials/footer'); %>
+</footer>
+
+</body>
+</html>
